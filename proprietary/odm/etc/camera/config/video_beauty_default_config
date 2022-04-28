@@ -1,5 +1,5 @@
 {
-    "isFunctionOpen":1,
+    "isFunctionOpen":0,
     "isParamAdjustOpen":1,
     "appConfigList": [
         {
@@ -8,7 +8,7 @@
          "videoBeautyParam":
             {
                 "isOpen": 0,
-                "fbParam": "40,0,0,0,0,0,0,0,40,0,0"
+                "fbParam": "30,0,0,0,0,0,0,0,30,0,0"
             }
         }
     ]
