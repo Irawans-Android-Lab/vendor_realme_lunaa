@@ -15,7 +15,7 @@
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 1,
                     "aps_algo_superphoto" : 1,
                     "aps_algo_watermark" : 1,
@@ -31,14 +31,14 @@
                     "aps_algo_portrait_supernight" : 0,
                     "aps_algo_supersensor" : 0,
                     "aps_algo_face_rectify" : 1,
+                    "aps_algo_tilt_shift" : 1,
                     "aps_algo_super_text" : 1,
                     "aps_algo_pf_v1" : 1,
                     "aps_algo_dered_eye" : 1,
                     "aps_algo_face_info":1,
                     "aps_algo_scportrait" : 1,
                     "aps_algo_couple_hdr" : 1,
-                    "aps_algo_cfr" : 0,
-                    "aps_algo_tilt_shift" : 1
+                    "aps_algo_face_whiten" : 0
                 },
                 {
                     "id" : 1,
@@ -70,9 +70,7 @@
                     "aps_algo_pf_v1" : 0,
                     "aps_algo_dered_eye" : 1,
                     "aps_algo_face_info":1,
-                    "aps_algo_scportrait" : 1,
-                    "aps_algo_pic_best" : 0,
-                    "aps_algo_cfr" : 0
+                    "aps_algo_scportrait" : 1
                 }
             ]
         },
@@ -89,7 +87,7 @@
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 1,
                     "aps_algo_superphoto" : 1,
                     "aps_algo_watermark" : 1,
@@ -99,11 +97,9 @@
                     "aps_algo_single_blur" : 0,
                     "aps_algo_upscale" : 1,
                     "aps_algo_video_blur" : 0,
-                    "aps_algo_darksight" : 1,
+                    "aps_algo_darksight" : 0,
                     "aps_algo_super_text" : 0,
-                    "aps_algo_face_info":0,
-                    "aps_algo_couple_hdr" : 1,
-                    "aps_algo_starburst" : 1
+                    "aps_algo_face_info":0
                 },
                 {
                     "id" : 1,
@@ -122,7 +118,7 @@
                     "aps_algo_watermark" : 1,
                     "aps_algo_face_beauty" : 1,
                     "aps_algo_rotate_mirror" : 1,
-                    "aps_algo_filter" : 1,
+                    "aps_algo_filter" : 0,
                     "aps_algo_single_blur" : 0,
                     "aps_algo_upscale" : 1,
                     "aps_algo_video_blur" : 0,
@@ -138,10 +134,10 @@
                 {
                     "id" : 0,
                     "enable" : 1,
-                    "aps_algo_blurless" : 0,
+                    "aps_algo_blurless" : 1,
                     "aps_algo_bokeh" : 1,
-                    "aps_algo_hdr" : 0,
-                    "aps_algo_lowlight_hdr" : 0,
+                    "aps_algo_hdr" : 1,
+                    "aps_algo_lowlight_hdr" : 1,
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
@@ -153,10 +149,12 @@
                     "aps_algo_rotate_mirror" : 1,
                     "aps_algo_filter" : 1,
                     "aps_algo_single_blur" : 0,
-                    "aps_algo_upscale" : 1,
+                    "aps_algo_upscale" : 0,
                     "aps_algo_video_blur" : 0,
                     "aps_algo_super_text" : 0,
-                    "aps_algo_face_info":1
+                    "aps_algo_motion_blur": 1,
+                    "aps_algo_face_info":1,
+                    "aps_algo_face_whiten" : 0
                 },
                 {
                     "id" : 1,
@@ -175,23 +173,13 @@
                     "aps_algo_face_beauty" : 1,
                     "aps_algo_rotate_mirror" : 1,
                     "aps_algo_filter" : 1,
-                    "aps_algo_single_blur" : 1,
+                    "aps_algo_single_blur" : 0,
+                    "aps_algo_single_bokeh" : 1,
                     "aps_algo_upscale" : 1,
                     "aps_algo_video_blur" : 0,
                     "aps_algo_super_text" : 0,
-                    "aps_algo_face_info":1
-                }
-            ]
-        },
-        {
-            "mode" : "xpan",
-            "entity" : [
-                {
-                    "id" : 0,
-                    "enable" : 1,
-                    "aps_algo_filter" : 1,
-                    "aps_algo_watermark" : 1,
-                    "aps_algo_rotate_mirror" : 1
+                    "aps_algo_face_info": 1,
+                    "aps_algo_couple_hdr" : 1
                 }
             ]
         },
@@ -223,7 +211,7 @@
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 0,
                     "aps_algo_superphoto" : 0,
                     "aps_algo_watermark" : 0,
@@ -247,7 +235,7 @@
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 0,
                     "aps_algo_superphoto" : 0,
                     "aps_algo_watermark" : 0,
@@ -269,14 +257,14 @@
                 {
                     "id" : 0,
                     "enable" : 1,
-                    "aps_algo_blurless" : 0,
+                    "aps_algo_blurless" : 1,
                     "aps_algo_bokeh" : 0,
                     "aps_algo_hdr" : 0,
                     "aps_algo_lowlight_hdr" : 0,
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 0,
                     "aps_algo_superphoto" : 0,
                     "aps_algo_watermark" : 1,
@@ -288,8 +276,7 @@
                     "aps_algo_video_blur" : 0,
                     "aps_algo_super_text" : 0,
                     "aps_algo_face_info":1,
-                    "aps_algo_dered_eye" : 1,
-                    "aps_algo_super_raw" : 1
+                    "aps_algo_dered_eye" : 1
                 },
                 {
                     "id" : 1,
@@ -311,7 +298,7 @@
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 1,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 1,
                     "aps_algo_superphoto" : 1,
                     "aps_algo_watermark" : 0,
@@ -334,7 +321,7 @@
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 1,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 1,
                     "aps_algo_superphoto" : 1,
                     "aps_algo_watermark" : 0,
@@ -363,7 +350,7 @@
                     "aps_algo_pf" : 0,
                     "aps_algo_filter" : 1,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 0,
                     "aps_algo_superphoto" : 0,
                     "aps_algo_watermark" : 1,
@@ -405,9 +392,11 @@
                     "aps_algo_filter" : 1,
                     "aps_algo_single_blur" : 0,
                     "aps_algo_upscale" : 1,
+                    "aps_algo_tilt_shift" : 1,
                     "aps_algo_video_blur" : 1,
                     "aps_algo_super_text" : 0,
                     "aps_algo_face_info":1,
+                    "aps_algo_video_retention" : 1,
                     "aps_algo_dered_eye" : 1
                 },
                 {
@@ -428,9 +417,10 @@
                     "aps_algo_rotate_mirror" : 1,
                     "aps_algo_filter" : 1,
                     "aps_algo_single_blur" : 0,
-                    "aps_algo_upscale" : 1,
+                    "aps_algo_upscale" : 0,
                     "aps_algo_video_blur" : 1,
                     "aps_algo_super_text" : 0,
+                    "aps_algo_video_retention" : 1,
                     "aps_algo_face_info":1
                 }
             ]
@@ -451,6 +441,7 @@
                     "aps_algo_rectify" : 0,
                     "aps_algo_supernight" : 0,
                     "aps_algo_superphoto" : 0,
+                    "aps_algo_tilt_shift" : 1,
                     "aps_algo_watermark" : 1,
                     "aps_algo_face_beauty" : 0,
                     "aps_algo_rotate_mirror" : 1,
@@ -487,7 +478,7 @@
             ]
         },
         {
-            "mode" : "slowVideo",
+            "mode" : "tiltShiftFastVideo",
             "entity" : [
                 {
                     "id" : 0,
@@ -502,7 +493,7 @@
                     "aps_algo_rectify" : 0,
                     "aps_algo_supernight" : 0,
                     "aps_algo_superphoto" : 0,
-                    "aps_algo_watermark" : 0,
+                    "aps_algo_watermark" : 1,
                     "aps_algo_face_beauty" : 0,
                     "aps_algo_rotate_mirror" : 1,
                     "aps_algo_filter" : 1,
@@ -510,12 +501,116 @@
                     "aps_algo_upscale" : 1,
                     "aps_algo_video_blur" : 1,
                     "aps_algo_super_text" : 0,
-                    "aps_algo_face_info" : 0
+                    "aps_algo_face_info":0
+                },
+                {
+                    "id" : 1,
+                    "enable" : 0
+                }
+            ]
+        },
+        {
+            "mode" : "slowVideo",
+            "entity" : [
+                {
+                    "id" : 0,
+                    "enable" : 1,
+                    "aps_algo_none" : 1
                 },
                 {
                     "id" : 1,
                     "enable" : 1,
                     "aps_algo_none" : 1
+                }
+            ]
+        },
+    {
+            "mode" : "highDefinition",
+            "entity" : [
+                {
+                    "id" : 0,
+                    "enable" : 1,
+                    "aps_algo_blurless" : 0,
+                    "aps_algo_bokeh" : 0,
+                    "aps_algo_hdr" : 0,
+                    "aps_algo_lowlight_hdr" : 0,
+                    "aps_algo_raw_hdr" : 0,
+                    "aps_algo_pf" : 0,
+                    "aps_algo_fusion" : 0,
+                    "aps_algo_rectify" : 0,
+                    "aps_algo_supernight" : 0,
+                    "aps_algo_superphoto" : 1,
+                    "aps_algo_watermark" : 1,
+                    "aps_algo_face_beauty" : 0,
+                    "aps_algo_rotate_mirror" : 1,
+                    "aps_algo_filter" : 0,
+                    "aps_algo_single_blur" : 0,
+                    "aps_algo_upscale" : 1,
+                    "aps_algo_video_blur" : 0,
+                    "aps_algo_darksight" : 0,
+                    "aps_algo_opxwatermark" : 0,
+                    "aps_algo_deflicker" : 0,
+                    "aps_algo_portrait_supernight" : 0,
+                    "aps_algo_supersensor" : 0,
+                    "aps_algo_face_rectify" : 0,
+                    "aps_algo_super_text" : 0,
+                    "aps_algo_pf_v1" : 1,
+                    "aps_algo_dered_eye" : 0,
+                    "aps_algo_face_info":0,
+                    "aps_algo_scportrait" : 0,
+                    "aps_algo_couple_hdr" : 0
+                },
+                {
+                    "id" : 1,
+                    "enable" : 1,
+                    "aps_algo_none" : 1
+                }
+            ]
+        },
+        {
+            "mode" : "ultraHD",
+            "entity" : [
+                {
+                    "id" : 0,
+                    "enable" : 1,
+                    "aps_algo_blurless" : 0,
+                    "aps_algo_bokeh" : 0,
+                    "aps_algo_hdr" : 0,
+                    "aps_algo_lowlight_hdr" : 0,
+                    "aps_algo_raw_hdr" : 0,
+                    "aps_algo_pf" : 0,
+                    "aps_algo_fusion" : 0,
+                    "aps_algo_rectify" : 1,
+                    "aps_algo_supernight" : 0,
+                    "aps_algo_superphoto" : 1,
+                    "aps_algo_watermark" : 1,
+                    "aps_algo_face_beauty" : 0,
+                    "aps_algo_rotate_mirror" : 1,
+                    "aps_algo_filter" : 1,
+                    "aps_algo_single_blur" : 0,
+                    "aps_algo_upscale" : 1,
+                    "aps_algo_video_blur" : 0
+                },
+                {
+                    "id" : 1,
+                    "enable" : 1,
+                    "aps_algo_blurless" : 0,
+                    "aps_algo_bokeh" : 0,
+                    "aps_algo_hdr" : 0,
+                    "aps_algo_lowlight_hdr" : 0,
+                    "aps_algo_raw_hdr" : 0,
+                    "aps_algo_pf" : 0,
+                    "aps_algo_fusion" : 0,
+                    "aps_algo_rectify" : 0,
+                    "aps_algo_supernight" : 0,
+                    "aps_algo_superphoto" : 0,
+                    "aps_algo_watermark" : 1,
+                    "aps_algo_face_beauty" : 0,
+                    "aps_algo_rotate_mirror" : 1,
+                    "aps_algo_filter" : 0,
+                    "aps_algo_single_blur" : 0,
+                    "aps_algo_upscale" : 1,
+                    "aps_algo_video_blur" : 0
                 }
             ]
         },
@@ -532,7 +627,7 @@
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 0,
                     "aps_algo_superphoto" : 1,
                     "aps_algo_watermark" : 0,
@@ -555,15 +650,15 @@
             ]
         },
         {
-            "mode" : "groupshot",
+            "mode" : "starry",
             "entity" : [
                 {
                     "id" : 0,
                     "enable" : 1,
-                    "aps_algo_blurless" : 1,
+                    "aps_algo_blurless" : 0,
                     "aps_algo_bokeh" : 0,
-                    "aps_algo_hdr" : 1,
-                    "aps_algo_lowlight_hdr" : 1,
+                    "aps_algo_hdr" : 0,
+                    "aps_algo_lowlight_hdr" : 0,
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
@@ -572,25 +667,48 @@
                     "aps_algo_supernight" : 0,
                     "aps_algo_superphoto" : 0,
                     "aps_algo_watermark" : 1,
-                    "aps_algo_face_beauty" : 1,
+                    "aps_algo_face_beauty" : 0,
                     "aps_algo_rotate_mirror" : 1,
-                    "aps_algo_filter" : 1,
+                    "aps_algo_filter" : 0,
                     "aps_algo_single_blur" : 0,
-                    "aps_algo_upscale" : 1,
+                    "aps_algo_upscale" : 0,
                     "aps_algo_video_blur" : 0,
                     "aps_algo_darksight" : 0,
-                    "aps_algo_opxwatermark" : 0,
-                    "aps_algo_deflicker" : 0,
-                    "aps_algo_portrait_supernight" : 0,
-                    "aps_algo_supersensor" : 0,
-                    "aps_algo_face_rectify" : 1,
-                    "aps_algo_super_text" : 0,
-                    "aps_algo_pf_v1" : 1,
-                    "aps_algo_dered_eye" : 1,
-                    "aps_algo_face_info":1,
-                    "aps_algo_scportrait" : 1,
-                    "aps_algo_couple_hdr" : 1,
-                    "aps_algo_pic_best" : 0
+                    "aps_algo_starmode" : 1
+                },
+                {
+                    "id" : 1,
+                    "enable" : 0,
+                    "aps_algo_none" : 1
+                }
+            ]
+        },
+        {
+            "mode" : "starVideo",
+            "entity" : [
+                {
+                    "id" : 0,
+                    "enable" : 1,
+                    "aps_algo_blurless" : 0,
+                    "aps_algo_bokeh" : 0,
+                    "aps_algo_hdr" : 0,
+                    "aps_algo_lowlight_hdr" : 0,
+                    "aps_algo_raw_hdr" : 0,
+                    "aps_algo_pf" : 0,
+                    "aps_algo_fusion" : 0,
+                    "aps_algo_ai_night" : 0,
+                    "aps_algo_rectify" : 0,
+                    "aps_algo_supernight" : 0,
+                    "aps_algo_superphoto" : 0,
+                    "aps_algo_watermark" : 1,
+                    "aps_algo_face_beauty" : 0,
+                    "aps_algo_rotate_mirror" : 0,
+                    "aps_algo_filter" : 0,
+                    "aps_algo_single_blur" : 0,
+                    "aps_algo_upscale" : 0,
+                    "aps_algo_video_blur" : 0,
+                    "aps_algo_darksight" : 0,
+                    "aps_algo_starmode" : 1
                 },
                 {
                     "id" : 1,
@@ -631,7 +749,7 @@
             ]
         },
         {
-            "mode" : "microscope",
+            "mode" : "street",
             "entity" : [
                 {
                     "id" : 0,
@@ -643,82 +761,26 @@
                     "aps_algo_raw_hdr" : 0,
                     "aps_algo_pf" : 0,
                     "aps_algo_fusion" : 0,
-                    "aps_algo_rectify" : 0,
-                    "aps_algo_supernight" : 0,
-                    "aps_algo_superphoto" : 0,
-                    "aps_algo_watermark" : 1,
-                    "aps_algo_face_beauty" : 0,
-                    "aps_algo_rotate_mirror" : 1,
-                    "aps_algo_filter" : 1,
-                    "aps_algo_single_blur" : 0,
-                    "aps_algo_upscale" : 1,
-                    "aps_algo_video_blur" : 0,
-                    "aps_algo_darksight" : 0,
-                    "aps_algo_opxwatermark" : 0,
-                    "aps_algo_deflicker" : 0,
-                    "aps_algo_portrait_supernight" : 0,
-                    "aps_algo_supersensor" : 0,
-                    "aps_algo_face_rectify" : 0,
-                    "aps_algo_super_text" : 0,
-                    "aps_algo_pf_v1" : 0,
-                    "aps_algo_dered_eye" : 0,
-                    "aps_algo_face_info": 0,
-                    "aps_algo_scportrait" : 0,
-                    "aps_algo_couple_hdr" : 0,
-                    "aps_algo_filter_microscope" : 1
-                },
-                {
-                    "id" : 1,
-                    "enable" : 1,
-                    "aps_algo_none" : 1
-                }
-            ]
-        },
-        {
-            "mode" : "microscopeVideo",
-            "entity" : [
-                {
-                    "id" : 0,
-                    "enable" : 1,
-                    "aps_algo_blurless" : 0,
-                    "aps_algo_bokeh" : 0,
-                    "aps_algo_hdr" : 0,
-                    "aps_algo_lowlight_hdr" : 0,
-                    "aps_algo_raw_hdr" : 0,
-                    "aps_algo_pf" : 0,
-                    "aps_algo_fusion" : 0,
                     "aps_algo_ai_night" : 0,
-                    "aps_algo_rectify" : 0,
+                    "aps_algo_rectify" : 1,
                     "aps_algo_supernight" : 0,
-                    "aps_algo_superphoto" : 0,
+                    "aps_algo_superphoto" : 1,
                     "aps_algo_watermark" : 1,
                     "aps_algo_face_beauty" : 0,
                     "aps_algo_rotate_mirror" : 1,
                     "aps_algo_filter" : 1,
                     "aps_algo_single_blur" : 0,
-                    "aps_algo_upscale" : 1,
+                    "aps_algo_upscale" : 0,
                     "aps_algo_video_blur" : 0,
                     "aps_algo_super_text" : 0,
-                    "aps_algo_face_info": 0,
-                    "aps_algo_filter_microscope" : 1
+                    "aps_algo_raw2yuv" : 0,
+                    "aps_algo_mfll" : 0,
+                    "aps_algo_ainr" : 0
                 },
                 {
                     "id" : 1,
                     "enable" : 1,
                     "aps_algo_none" : 1
-                }
-            ]
-        },
-        {
-            "mode" : "longExposure",
-            "entity" : [
-                {
-                    "id" : 0,
-                    "enable" : 1,
-                    "aps_algo_rectify" : 1,
-                    "aps_algo_watermark" : 1,
-                    "aps_algo_filter" : 1,
-                    "aps_algo_rotate_mirror" : 1
                 }
             ]
         }
@@ -729,7 +791,7 @@
             "entity": [
                 {
                     "id": 0,
-                    "camera_num": 3,
+                    "camera_num": 1,
                     "separate_preview_video": 0,
                     "pipelines": {
                         "preview": {
@@ -745,7 +807,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd", "preview_pf", "preview_supereis" ]
+                            "algo_list": ["preview_rectify","preview_pf"]
                         },
                         "video": {
                             "enable": 0
@@ -785,7 +847,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -803,7 +865,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "pipeline_default",
                             "algonode_copy_from": "preview_default",
-                            "algo_list": [ "preview_asd", "preview_gesture" ]
+                            "algo_list": [ "preview_gesture" ]
                         }
                     }
                 }
@@ -830,7 +892,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd", "preview_pf", "preview_supereis" ]
+                            "algo_list": [ "preview_rectify", "preview_pf" ]
                         },
                         "video": {
                             "enable": 0
@@ -870,7 +932,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -915,7 +977,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -943,7 +1005,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -976,7 +1038,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": ["preview_lsd" ]
+                            "algo_list": ["preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -1004,7 +1066,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -1098,7 +1160,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd", "preview_starburst" ]
+                            "algo_list": [ "preview_rectify"]
                         },
                         "video": {
                             "enable": 0
@@ -1138,7 +1200,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -1156,7 +1218,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "pipeline_default",
                             "algonode_copy_from": "preview_default",
-                            "algo_list": [ "preview_asd", "preview_gesture"]
+                            "algo_list": [ "preview_gesture" ]
                         }
                     }
                 }
@@ -1183,7 +1245,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_rtb", "preview_lsd" ]
+                            "algo_list": [ "preview_rtb", "preview_aicolor"]
                         },
                         "video": {
                             "enable": 0
@@ -1212,18 +1274,18 @@
                     "pipelines": {
                         "preview": {
                             "enable": 1,
-                            "master_input_width": 1440,
-                            "master_input_height": 1080,
+                            "master_input_width": 960,
+                            "master_input_height": 720,
                             "slave_input_width": 0,
                             "slave_input_height": 0,
                             "third_input_width": 0,
                             "third_input_height": 0,
-                            "output_width": 1440,
-                            "output_height": 1080,
+                            "output_width": 960,
+                            "output_height": 720,
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -1248,7 +1310,7 @@
             ]
         },
         {
-            "mode": "xpan",
+            "mode": "streamerPortrait",
             "entity": [
                 {
                     "id": 0,
@@ -1257,14 +1319,14 @@
                     "pipelines": {
                         "preview": {
                             "enable": 1,
-                            "master_input_width": 1920,
-                            "master_input_height": 864,
+                            "master_input_width": 1440,
+                            "master_input_height": 1080,
                             "slave_input_width": 0,
                             "slave_input_height": 0,
                             "third_input_width": 0,
                             "third_input_height": 0,
-                            "output_width": 1920,
-                            "output_height": 864,
+                            "output_width": 1440,
+                            "output_height": 1080,
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
@@ -1301,7 +1363,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -1329,7 +1391,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -1362,96 +1424,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
-                        },
-                        "video": {
-                            "enable": 0
-                        },
-                        "asd": {
-                            "enable": 0
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "mode": "focusPeaking",
-            "entity": [
-                {
-                    "id": 0,
-                    "camera_num": 1,
-                    "separate_preview_video": 0,
-                    "pipelines": {
-                        "preview": {
-                            "enable": 1,
-                            "master_input_width": 1440,
-                            "master_input_height": 1080,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 1440,
-                            "output_height": 1080,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "",
-                            "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd", "preview_edge_filter" ]
-                        },
-                        "video": {
-                            "enable": 0
-                        },
-                        "asd": {
-                            "enable": 0
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "camera_num": 1,
-                    "separate_preview_video": 0,
-                    "pipelines": {
-                        "preview": {
-                            "enable": 1,
-                            "master_input_width": 1440,
-                            "master_input_height": 1080,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 1440,
-                            "output_height": 1080,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "",
-                            "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd", "preview_edge_filter" ]
-                        },
-                        "video": {
-                            "enable": 0
-                        },
-                        "asd": {
-                            "enable": 0
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "camera_num": 1,
-                    "separate_preview_video": 0,
-                    "pipelines": {
-                        "preview": {
-                            "enable": 1,
-                            "master_input_width": 1440,
-                            "master_input_height": 1080,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 1440,
-                            "output_height": 1080,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "",
-                            "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd", "preview_edge_filter" ]
+                            "algo_list": [ "preview_rectify"]
                         },
                         "video": {
                             "enable": 0
@@ -1488,52 +1461,7 @@
                     "separate_preview_video": 0,
                     "pipelines": {
                         "preview": {
-                            "enable": 1
-                        },
-                        "video": {
                             "enable": 0
-                        },
-                        "asd": {
-                            "enable":  1,
-                            "master_input_width": 1440,
-                            "master_input_height": 1080,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 1440,
-                            "output_height": 1080,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "pipeline_default",
-                            "algonode_copy_from": "preview_default",
-                            "algo_list": [ "preview_gesture" ]
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "mode": "groupshot",
-            "entity": [
-                {
-                    "id": 0,
-                    "camera_num": 1,
-                    "separate_preview_video": 0,
-                    "pipelines": {
-                        "preview": {
-                            "enable": 1,
-                            "master_input_width": 1440,
-                            "master_input_height": 1080,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 1440,
-                            "output_height": 1080,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "",
-                            "algonode_copy_from": "",
-                            "algo_list": [ "preview_pf", "preview_lsd" ]
                         },
                         "video": {
                             "enable": 0
@@ -1566,7 +1494,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
@@ -1606,10 +1534,10 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
-                            "enable": 0,
+                            "enable": 1,
                             "master_input_width": 1280,
                             "master_input_height": 720,
                             "slave_input_width": 0,
@@ -1651,7 +1579,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
@@ -1701,8 +1629,8 @@
                     "pipelines": {
                         "preview": {
                             "enable": 1,
-                            "master_input_width": 2752,
-                            "master_input_height": 1548,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
                             "slave_input_width": 0,
                             "slave_input_height": 0,
                             "third_input_width": 0,
@@ -1712,10 +1640,22 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
-                            "enable": 0
+                            "enable": 1,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1920,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "video_watermark_process_on_output"]
                         },
                         "asd": {
                             "enable": 0
@@ -1750,8 +1690,8 @@
                     "pipelines": {
                         "preview": {
                             "enable": 1,
-                            "master_input_width": 3264,
-                            "master_input_height": 1836,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
                             "slave_input_width": 0,
                             "slave_input_height": 0,
                             "third_input_width": 0,
@@ -1761,12 +1701,12 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
-                            "master_input_width": 3264,
-                            "master_input_height": 1836,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
                             "slave_input_width": 0,
                             "slave_input_height": 0,
                             "third_input_width": 0,
@@ -1806,7 +1746,92 @@
             "entity": [
                 {
                     "id": 0,
-                    "camera_num": 3,
+                    "camera_num": 1,
+                    "separate_preview_video": 1,
+                    "pipelines": {
+                        "preview": {
+                            "enable": 1,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1920,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "preview_default" ]
+                        },
+                        "video": {
+                            "enable": 1,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1920,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "video_watermark_process_on_output" ]
+                        },
+                        "asd": {
+                            "enable": 0
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "camera_num": 1,
+                    "separate_preview_video": 1,
+                    "pipelines": {
+                        "preview": {
+                            "enable": 1,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1920,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "preview_default" ]
+                        },
+                        "video": {
+                            "enable": 1,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1920,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "video_watermark_process_on_output" ]
+                        },
+                        "asd": {
+                            "enable": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "tiltShiftFastVideo",
+            "entity": [
+                {
+                    "id": 0,
+                    "camera_num": 2,
                     "separate_preview_video": 1,
                     "pipelines": {
                         "preview": {
@@ -1837,7 +1862,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "pipeline_preview",
                             "algonode_copy_from": "preview_offline_ipe",
-                            "algo_list": [ "preview_video_eis" ]
+                            "algo_list": [ "video_watermark_process_on_output" ]
                         },
                         "asd": {
                             "enable": 0
@@ -1846,6 +1871,27 @@
                 },
                 {
                     "id": 1,
+                    "camera_num": 1,
+                    "separate_preview_video": 1,
+                    "pipelines": {
+                        "preview": {
+                            "enable": 0
+                        },
+                        "video": {
+                            "enable": 0
+                        },
+                        "asd": {
+                            "enable": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "slowVideo",
+            "entity": [
+                {
+                    "id": 0,
                     "camera_num": 1,
                     "separate_preview_video": 1,
                     "pipelines": {
@@ -1862,7 +1908,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
@@ -1877,7 +1923,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "video_watermark_process_on_output" ]
+                            "algo_list": [ "preview_video_frc" ]
                         },
                         "asd": {
                             "enable": 0
@@ -1887,7 +1933,106 @@
             ]
         },
         {
-            "mode": "slowVideo",
+            "mode": "macro",
+            "entity": [
+                {
+                    "id": 0,
+                    "camera_num": 1,
+                    "separate_preview_video": 0,
+                    "pipelines": {
+                        "preview": {
+                            "enable": 1,
+                            "master_input_width": 1440,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1600,
+                            "output_height": 1200,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "preview_default" ]
+                        },
+                        "video": {
+                            "enable": 0
+                        },
+                        "asd": {
+                            "enable": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "superText",
+            "entity": [
+                {
+                    "id": 0,
+                    "camera_num": 1,
+                    "separate_preview_video": 0,
+                    "pipelines": {
+                        "preview": {
+                            "enable": 1,
+                            "master_input_width": 960,
+                            "master_input_height": 720,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1920,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "preview_rectify" ]
+                        },
+                        "video": {
+                            "enable": 0
+                        },
+                        "asd": {
+                            "enable": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "starry",
+            "entity": [
+                {
+                    "id": 0,
+                    "camera_num": 1,
+                    "separate_preview_video": 0,
+                    "pipelines": {
+                        "preview": {
+                            "enable": 1,
+                            "master_input_width": 1440,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1440,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "preview_default" ]
+                        },
+                        "video": {
+                            "enable": 0
+                        },
+                        "asd": {
+                            "enable": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "starVideo",
             "entity": [
                 {
                     "id": 0,
@@ -1907,7 +2052,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -1940,13 +2085,13 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd", "preview_pf", "preview_supereis" ]
+                            "algo_list": [ "preview_pf"]
                         },
                         "video": {
                             "enable": 0
                         },
                         "asd": {
-                            "enable": 1,
+                            "enable": 0,
                             "master_input_width": 1440,
                             "master_input_height": 1080,
                             "slave_input_width": 0,
@@ -1980,6 +2125,84 @@
                 }
             ]
         },
+    {
+            "mode": "highDefinition",
+            "entity": [
+                {
+                    "id": 0,
+                    "camera_num": 1,
+                    "separate_preview_video": 0,
+                    "pipelines": {
+                        "preview": {
+                            "enable": 1,
+                            "master_input_width": 1440,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1440,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "preview_pf" ]
+                        },
+                        "video": {
+                            "enable": 0
+                        },
+                        "asd": {
+                            "enable": 1,
+                            "master_input_width": 1440,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1440,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "pipeline_default",
+                            "algonode_copy_from": "preview_default",
+                            "algo_list": [ "preview_asd" ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "ultraHD",
+            "entity": [
+                {
+                    "id": 0,
+                    "camera_num": 1,
+                    "separate_preview_video": 0,
+                    "pipelines": {
+                        "preview": {
+                            "enable": 1,
+                            "master_input_width": 1440,
+                            "master_input_height": 1080,
+                            "slave_input_width": 0,
+                            "slave_input_height": 0,
+                            "third_input_width": 0,
+                            "third_input_height": 0,
+                            "output_width": 1440,
+                            "output_height": 1080,
+                            "skip_frame_cnt": 0,
+                            "pipeline_copy_from": "",
+                            "algonode_copy_from": "",
+                            "algo_list": [ "preview_rectify" ]
+                        },
+                        "video": {
+                            "enable": 0
+                        },
+                        "asd": {
+                            "enable": 0
+                        }
+                    }
+                }
+            ]
+        },
         {
             "mode": "commonVideoSatHal",
             "entity": [
@@ -2001,7 +2224,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
@@ -2041,7 +2264,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
@@ -2086,7 +2309,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
@@ -2131,7 +2354,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_default", "preview_night_vision" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
@@ -2165,8 +2388,8 @@
                     "pipelines": {
                         "preview": {
                             "enable": 1,
-                            "master_input_width": 2560,
-                            "master_input_height": 1440,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
                             "slave_input_width": 0,
                             "slave_input_height": 0,
                             "third_input_width": 0,
@@ -2180,8 +2403,8 @@
                         },
                         "video": {
                             "enable": 1,
-                            "master_input_width": 2560,
-                            "master_input_height": 1440,
+                            "master_input_width": 2752,
+                            "master_input_height": 1548,
                             "slave_input_width": 0,
                             "slave_input_height": 0,
                             "third_input_width": 0,
@@ -2210,8 +2433,8 @@
                     "pipelines": {
                         "preview": {
                             "enable": 1,
-                            "master_input_width": 2560,
-                            "master_input_height": 1440,
+                            "master_input_width": 1920,
+                            "master_input_height": 1080,
                             "slave_input_width": 0,
                             "slave_input_height": 0,
                             "third_input_width": 0,
@@ -2225,8 +2448,8 @@
                         },
                         "video": {
                             "enable": 1,
-                            "master_input_width": 2560,
-                            "master_input_height": 1440,
+                            "master_input_width": 2304,
+                            "master_input_height": 1296,
                             "slave_input_width": 0,
                             "slave_input_height": 0,
                             "third_input_width": 0,
@@ -2266,7 +2489,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
@@ -2296,52 +2519,7 @@
                 {
                     "id": 0,
                     "camera_num": 1,
-                    "separate_preview_video": 1,
-                    "pipelines": {
-                        "preview": {
-                            "enable": 1,
-                            "master_input_width": 3168,
-                            "master_input_height": 1358,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 3168,
-                            "output_height": 1358,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "",
-                            "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd" ]
-                        },
-                        "video": {
-                            "enable": 1,
-                            "master_input_width": 3168,
-                            "master_input_height": 1358,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 3168,
-                            "output_height": 1358,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "",
-                            "algonode_copy_from": "",
-                            "algo_list": [ "video_watermark_process_on_output" ]
-                        },
-                        "asd": {
-                            "enable": 0
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "mode": "movieNoEis",
-            "entity": [
-                {
-                    "id": 0,
-                    "camera_num": 1,
-                    "separate_preview_video": 1,
+                    "separate_preview_video": 0,
                     "pipelines": {
                         "preview": {
                             "enable": 1,
@@ -2359,51 +2537,6 @@
                             "algo_list": [ "preview_default" ]
                         },
                         "video": {
-                            "enable": 1,
-                            "master_input_width": 3168,
-                            "master_input_height": 1358,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 3168,
-                            "output_height": 1358,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "",
-                            "algonode_copy_from": "",
-                            "algo_list": [ "video_watermark_process_on_output" ]
-                        },
-                        "asd": {
-                            "enable": 0
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "mode": "microscope",
-            "entity": [
-                {
-                    "id": 0,
-                    "camera_num": 1,
-                    "separate_preview_video": 1,
-                    "pipelines": {
-                        "preview": {
-                            "enable": 1,
-                            "master_input_width": 1920,
-                            "master_input_height": 1440,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 1920,
-                            "output_height": 1440,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "",
-                            "algonode_copy_from": "",
-                            "algo_list": [ "preview_default" ]
-                        },
-                        "video": {
                             "enable": 0
                         },
                         "asd": {
@@ -2414,7 +2547,7 @@
             ]
         },
         {
-            "mode": "longExposure",
+            "mode": "street",
             "entity": [
                 {
                     "id": 0,
@@ -2425,37 +2558,23 @@
                             "enable": 1,
                             "master_input_width": 1440,
                             "master_input_height": 1080,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
+                            "slave_input_width": 1440,
+                            "slave_input_height": 1080,
+                            "third_input_width": 1440,
+                            "third_input_height": 1080,
                             "output_width": 1440,
                             "output_height": 1080,
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_lsd", "preview_long_exposure", "preview_rectify" ]
+                            "algo_list": [ "preview_rectify", "preview_lsd", "preview_pf", "preview_edge_filter" ]
+
                         },
                         "video": {
                             "enable": 0
                         },
                         "asd": {
                             "enable": 0
-                        },
-                        "capture": {
-                            "enable": 1,
-                            "master_input_width": 4096,
-                            "master_input_height": 3072,
-                            "slave_input_width": 0,
-                            "slave_input_height": 0,
-                            "third_input_width": 0,
-                            "third_input_height": 0,
-                            "output_width": 4096,
-                            "output_height": 3072,
-                            "skip_frame_cnt": 0,
-                            "pipeline_copy_from": "",
-                            "algonode_copy_from": "",
-                            "algo_list": [ "preview_long_exposure" ]
                         }
                     }
                 }
