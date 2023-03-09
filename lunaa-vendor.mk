@@ -7,8 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
-    vendor/realme/lunaa/proprietary/odm/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.esepowermanager@1.1-service \
-    vendor/realme/lunaa/proprietary/odm/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.secure_element@1.2-service \
     vendor/realme/lunaa/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/realme/lunaa/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/realme/lunaa/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -452,67 +450,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/etc/init/calibrationOutput_uw.rc:$(TARGET_COPY_OUT_ODM)/etc/init/calibrationOutput_uw.rc \
     vendor/realme/lunaa/proprietary/odm/etc/init/calibrationOutput_uw_686.rc:$(TARGET_COPY_OUT_ODM)/etc/init/calibrationOutput_uw_686.rc \
     vendor/realme/lunaa/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/realme/lunaa/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
-    vendor/realme/lunaa/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm1.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm1.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm10.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm11.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm12.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm12.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm13.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm13.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm14.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm14.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm15.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm15.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm16.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm16.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm17.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm17.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm18.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm18.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm2.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm2.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm3.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm3.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm4.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm4.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm5.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm5.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm6.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm6.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm7.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm7.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm8.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm8.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/iris5/inParm9.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris5/inParm9.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm.lst \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm10.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm11.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm12.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm12.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm14_a.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_a.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm14_b.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_b.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm14_c.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_c.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm16_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16_center.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm16_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16_down.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm16_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16_up.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm17_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17_center.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm17_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17_down.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm17_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17_up.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm18_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18_center.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm18_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18_down.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm18_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18_up.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm1_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1_center.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm1_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1_down.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm1_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1_up.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm2_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2_center.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm2_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2_down.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm2_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2_up.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm3_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3_center.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm3_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3_down.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm3_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3_up.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm4_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4_center.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm4_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4_down.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm4_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4_up.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm5_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5_center.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm5_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5_down.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm5_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5_up.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm6_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6_center.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm6_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6_down.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm6_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6_up.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm8_a.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_a.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm8_b.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_b.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/inParm8_c.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_c.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/inparm/irissoft/mcfCheck_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck_low.txt \
-    vendor/realme/lunaa/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
-    vendor/realme/lunaa/proprietary/odm/etc/irissoft_fod.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft_fod.fw \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVACFS_Configuration.txt \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
@@ -539,9 +476,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
-    vendor/realme/lunaa/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/realme/lunaa/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/realme/lunaa/proprietary/vendor/firmware/sn100u.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sn100u.bin \
     vendor/realme/lunaa/proprietary/odm/etc/sensor/config/lahaina_aw9610x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_aw9610x_0.json \
     vendor/realme/lunaa/proprietary/odm/etc/sensor/config/lahaina_aw9610x_down_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_aw9610x_down_0.json \
     vendor/realme/lunaa/proprietary/odm/etc/sensor/config/lahaina_bmp380.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_bmp380.json \
@@ -613,7 +547,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdsuperphoto_skel.so \
     vendor/realme/lunaa/proprietary/odm/lib/rfsa/adsp/libworker_pool.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libworker_pool.so \
     vendor/realme/lunaa/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
-    vendor/realme/lunaa/proprietary/odm/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.secure_element@1.0-impl.so \
     vendor/realme/lunaa/proprietary/odm/lib64/camera/arcsoft_calibration_uw.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/arcsoft_calibration_uw.bin \
     vendor/realme/lunaa/proprietary/odm/lib64/camera/arcsoft_calibration_wt.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/arcsoft_calibration_wt.bin \
     vendor/realme/lunaa/proprietary/odm/lib64/camera/arcsoft_dc_calibration_t.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/arcsoft_dc_calibration_t.bin \
@@ -643,7 +576,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
     vendor/realme/lunaa/proprietary/odm/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideolite.bin \
     vendor/realme/lunaa/proprietary/odm/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G3.default.so \
-    vendor/realme/lunaa/proprietary/odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoInterface.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoProcess.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libAncSegmentSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegmentSdk.so \
@@ -754,8 +686,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
-    vendor/realme/lunaa/proprietary/odm/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.0.so \
-    vendor/realme/lunaa/proprietary/odm/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/realme/lunaa/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/realme/lunaa/proprietary/odm/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b00 \
     vendor/realme/lunaa/proprietary/odm/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b01 \
