@@ -948,7 +948,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib/liboplusvppfilter.so:$(TARGET_COPY_OUT_ODM)/lib/liboplusvppfilter.so \
     vendor/realme/lunaa/proprietary/odm/lib/libosie_process.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_process.so \
     vendor/realme/lunaa/proprietary/odm/lib/libosie_stub.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_stub.so \
-    vendor/realme/lunaa/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
+    vendor/realme/lunaa/proprietary/odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libQnnHtpAltPrepStub.so:$(TARGET_COPY_OUT_ODM)/lib64/libQnnHtpAltPrepStub.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libQnnHtpStub.so:$(TARGET_COPY_OUT_ODM)/lib64/libQnnHtpStub.so \
     vendor/realme/lunaa/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
@@ -957,7 +957,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
-    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
     vendor/realme/lunaa/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/realme/lunaa/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
@@ -1949,8 +1949,8 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     PowerOffAlarm \
-    HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
+    HotwordEnrollmentOKGoogle \
+    HotwordEnrollmentXGoogle \
     ImsRcsService \
     QtiTelephony \
     QtiTelephonyService \
