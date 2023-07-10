@@ -723,7 +723,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
-    vendor/realme/lunaa/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/realme/lunaa/proprietary/odm/vendor/firmware/ancap64.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b00 \
     vendor/realme/lunaa/proprietary/odm/vendor/firmware/ancap64.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b01 \
     vendor/realme/lunaa/proprietary/odm/vendor/firmware/ancap64.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b02 \
