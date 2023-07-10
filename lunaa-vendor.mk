@@ -1066,56 +1066,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/firmware/ringtone_Sun_glittering_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Sun_glittering_RTP.bin \
     vendor/realme/lunaa/proprietary/odm/firmware/shuntai24k_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/shuntai24k_rtp.bin \
     vendor/realme/lunaa/proprietary/odm/firmware/t-jingle_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/t-jingle_RTP.bin \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/19815/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19815/FW_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/19815/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19815/LIMIT_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/19825/FW_S6SY792_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19825/FW_S6SY792_SAMSUNG.bin \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/19825/FW_S6SY792_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19825/FW_S6SY792_SAMSUNG_FAE.bin \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/19825/LIMIT_S6SY792_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19825/LIMIT_S6SY792_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20031/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20031/FW_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20031/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20031/FW_S3908_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20031/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20031/LIMIT_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20085/FW_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/FW_S3908_BOE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20085/FW_S3908_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/FW_S3908_BOE_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20085/FW_ST80Y_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/FW_ST80Y_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20085/FW_ST80Y_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/FW_ST80Y_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20085/LIMIT_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/LIMIT_S3908_BOE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20085/LIMIT_ST80Y_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/LIMIT_ST80Y_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20085/LIMIT_ST80Y_SAMSUNG_AGING.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/LIMIT_ST80Y_SAMSUNG_AGING.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20627/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20627/FW_FT3518_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20627/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20627/FW_FT3518_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20627/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20627/LIMIT_FT3518_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20659/FW_S6SY792_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20659/FW_S6SY792_SAMSUNG.bin \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20659/FW_S6SY792_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20659/FW_S6SY792_SAMSUNG_FAE.bin \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20659/LIMIT_S6SY792_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20659/LIMIT_S6SY792_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20820/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20820/FW_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20820/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20820/FW_S3908_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/20820/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20820/LIMIT_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21005/FW_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/FW_S3908_BOE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21005/FW_S3908_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/FW_S3908_BOE_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21005/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/FW_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21005/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/FW_S3908_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21005/LIMIT_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/LIMIT_S3908_BOE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21005/LIMIT_S3908_BOE_AGING.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/LIMIT_S3908_BOE_AGING.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21005/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/LIMIT_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21005/LIMIT_S3908_SAMSUNG_AGING.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/LIMIT_S3908_SAMSUNG_AGING.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21031/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21031/FW_FT3518_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21031/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21031/FW_FT3518_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21031/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21031/LIMIT_FT3518_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21051/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21051/FW_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21051/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21051/FW_S3908_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21051/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21051/LIMIT_S3908_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21075/FW_NF_ILI7807S_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/FW_NF_ILI7807S_BOE_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21075/FW_NF_ILI7807S_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/FW_NF_ILI7807S_DSJM.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21075/FW_NF_ILI7807S_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/FW_NF_ILI7807S_DSJM_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21075/LIMIT_NF_ILI7807S_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/LIMIT_NF_ILI7807S_BOE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21075/LIMIT_NF_ILI7807S_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/LIMIT_NF_ILI7807S_DSJM.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21147/FW_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21147/FW_FT3658U_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21147/FW_FT3658U_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21147/FW_FT3658U_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21147/LIMIT_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21147/LIMIT_FT3658U_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21617/FW_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21617/FW_FT3658U_SAMSUNG.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21617/FW_FT3658U_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21617/FW_FT3658U_SAMSUNG_FAE.img \
-    vendor/realme/lunaa/proprietary/odm/firmware/tp/21617/LIMIT_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21617/LIMIT_FT3658U_SAMSUNG.img \
     vendor/realme/lunaa/proprietary/odm/firmware/wentai24k_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/wentai24k_rtp.bin \
     vendor/realme/lunaa/proprietary/odm/lib/libaiboost_qnn_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_qnn_sr.so \
     vendor/realme/lunaa/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
