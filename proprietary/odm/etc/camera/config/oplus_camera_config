@@ -36,6 +36,27 @@
 },
 
 {
+  "VendorTag": "com.oplus.camera.support.activity.rotate",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.customize.night.filter.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.feature.custom.makeup.watermark.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.gesture.detect.in.aps",
   "Type": "Byte",
   "Count": "1",
@@ -1271,41 +1292,6 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
-},
-
-{
-  "VendorTag": "com.oplus.athena.new.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.camera.athena.target.mem.low",
-  "Type": "Float",
-  "Count": "2",
-  "Value": "2.0,2.25,3.0"
-},
-
-{
-  "VendorTag": "com.oplus.camera.athena.target.mem.medium",
-  "Type": "Float",
-  "Count": "2",
-  "Value": "2.0,2.25,3.0"
-},
-
-{
-  "VendorTag": "com.oplus.camera.athena.target.mem.high",
-  "Type": "Float",
-  "Count": "2",
-  "Value": "2.0,2.25,3.0"
-},
-
-{
-  "VendorTag": "com.oplus.athena.memory.threshold",
-  "Type": "String",
-  "Count": "1",
-  "Value": "3.0"
 }
 ]
 

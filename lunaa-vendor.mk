@@ -6,8 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/lunaa
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/lunaa/proprietary/odm/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service \
     vendor/realme/lunaa/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
-    vendor/realme/lunaa/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor/realme/lunaa/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/realme/lunaa/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/realme/lunaa/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
@@ -485,8 +485,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/realme/lunaa/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
     vendor/realme/lunaa/proprietary/odm/etc/init/init.st54x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.st54x.nfc.rc \
+    vendor/realme/lunaa/proprietary/odm/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc \
     vendor/realme/lunaa/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/realme/lunaa/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVACFS_Configuration.txt \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
@@ -620,6 +620,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib64/libFaceDistortionCorrection.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceDistortionCorrection.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libFaceWhiten.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceWhiten.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libFilterWrapper.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/libImageWarpMask.so:$(TARGET_COPY_OUT_ODM)/lib64/libImageWarpMask.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libOGLManager.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libPerfectColor.so:$(TARGET_COPY_OUT_ODM)/lib64/libPerfectColor.so \
@@ -701,9 +702,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib64/libml_util.so:$(TARGET_COPY_OUT_ODM)/lib64/libml_util.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libmotionblur.so:$(TARGET_COPY_OUT_ODM)/lib64/libmotionblur.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/libolc_vnd.so:$(TARGET_COPY_OUT_ODM)/lib64/libolc_vnd.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libop-ai-beauty-body-detection.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-body-detection.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libop-ai-beauty-faceretouch-cn.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-faceretouch-cn.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/libosenseaidlhalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosenseaidlhalclient.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosensehalclient.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v2.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libsnpe_dsp_domains_v3.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v3.so \
@@ -718,10 +721,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
-    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
-    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor-V1-ndk_platform.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so \
     vendor/realme/lunaa/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/realme/lunaa/proprietary/odm/vendor/firmware/ancap64.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b00 \
     vendor/realme/lunaa/proprietary/odm/vendor/firmware/ancap64.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b01 \
@@ -905,6 +910,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/vendor/lib64/libmctfengine_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmctfengine_stub.so \
     vendor/realme/lunaa/proprietary/vendor/lib64/libmfec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfec.so \
     vendor/realme/lunaa/proprietary/vendor/lib64/libmidasserviceintf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmidasserviceintf.so \
+    vendor/realme/lunaa/proprietary/vendor/lib64/libmidasserviceintf_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmidasserviceintf_aidl.so \
     vendor/realme/lunaa/proprietary/vendor/lib64/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_bestats.so \
     vendor/realme/lunaa/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
     vendor/realme/lunaa/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
@@ -929,11 +935,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
     vendor/realme/lunaa/proprietary/vendor/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/realme/lunaa/proprietary/vendor/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_video_optical_zoom.so \
+    vendor/realme/lunaa/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so \
     vendor/realme/lunaa/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/realme/lunaa/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 PRODUCT_PACKAGES += \
-    manifest_oplusSensor \
+    manifest_oplusSensor_aidl \
     manifest_oplus_fingerprint
 PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
