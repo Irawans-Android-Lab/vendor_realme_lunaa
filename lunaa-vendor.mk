@@ -6,8 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/lunaa
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/lunaa/proprietary/system_ext/etc/camera/engineer_camera_config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/engineer_camera_config \
     vendor/realme/lunaa/proprietary/odm/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service \
     vendor/realme/lunaa/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
+    vendor/realme/lunaa/proprietary/odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service \
     vendor/realme/lunaa/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/realme/lunaa/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/realme/lunaa/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
@@ -487,6 +489,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/etc/init/init.st54x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.st54x.nfc.rc \
     vendor/realme/lunaa/proprietary/odm/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc \
     vendor/realme/lunaa/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/realme/lunaa/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVACFS_Configuration.txt \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat \
     vendor/realme/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
@@ -941,4 +944,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     manifest_oplusSensor_aidl \
-    manifest_oplus_fingerprint
+    manifest_oplus_cammidasservice_aidl \
+    manifest_oplus_fingerprint \
+    manifest_oplus_sendextcamcmd
